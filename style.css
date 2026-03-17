@@ -1,0 +1,209 @@
+body{
+margin:0;
+font-family:Poppins;
+background:#0f0f0f;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#000;
+position:fixed;
+width:100%;
+}
+
+nav > div:first-child{
+font-family:Allura,cursive;
+font-size:32px;
+font-weight:700;
+color:#d4af37;
+text-shadow:
+  0 0 8px red,
+  0 0 15px #ec0e0e,
+  0 0 25px #ffed4e;
+letter-spacing:1px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+}
+
+.hero{
+height:100vh;
+background:url('https://images.unsplash.com/photo-1514933651103-005eec06c04b') center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero h1{
+font-family:Allura,cursive;
+font-size:80px;
+color:#000;
+font-weight:400;
+text-shadow:
+  0 0 10px #d4af37,
+  0 0 20px #ffd700,
+  0 0 30px #ffed4e,
+  0 0 40px #d4af37,
+  0 0 50px #ffd700,
+  2px 2px 4px rgba(212, 175, 55, 0.8),
+  -2px -2px 4px rgba(212, 175, 55, 0.8);
+letter-spacing:2px;
+}
+
+.hero p{
+color:#000;
+font-size:18px;
+font-weight:600;
+text-shadow:
+  0 0 8px #d4af37,
+  0 0 15px #ffd700,
+  0 0 25px #ffed4e,
+  0 0 35px #d4af37,
+  2px 2px 3px rgba(212, 175, 55, 0.7),
+  -2px -2px 3px rgba(212, 175, 55, 0.7);
+letter-spacing:1px;
+}
+
+.hero button{
+padding:12px 30px;
+background:#d4af37;
+border:none;
+margin-top:20px;
+font-size:16px;
+cursor:pointer;
+}
+
+section{
+padding:80px 60px;
+}
+
+.about{
+background:#1c1c1c;
+text-align:center;
+}
+
+.menu{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.menu-item{
+border-bottom:1px solid #333;
+padding:10px 0;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
+}
+
+.gallery img{
+width:100%;
+height:250px;
+object-fit:cover;
+}
+
+.events{
+background:#1c1c1c;
+}
+
+.testimonies{
+background:#0f0f0f;
+}
+
+.testimonies h2{
+text-align:center;
+margin-bottom:40px;
+}
+button{
+transition: all 0.3s ease;
+}
+
+button:hover{
+background:#fff;
+color:#000;
+transform: translateY(-3px);
+}
+.testimonies-container{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+max-width:1200px;
+margin:0 auto;
+}
+
+.testimony{
+background:#1c1c1c;
+border:1px solid #333;
+border-radius:15px;
+padding:30px;
+transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimony:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 30px rgba(212, 175, 55, 0.2);
+}
+
+.testimony-content{
+margin-bottom:20px;
+}
+
+.testimony-content p:first-child{
+font-size:16px;
+line-height:1.6;
+margin:0 0 20px 0;
+color:#fff;
+}
+
+.testimony-author{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.profile-pic{
+width:40px;
+height:40px;
+border-radius:50%;
+flex-shrink:0;
+border:2px solid #d4af37;
+}
+
+.testimony-author p{
+margin:0;
+font-size:14px;
+font-weight:600;
+}
+
+.reservation{
+text-align:center;
+}
+
+input,textarea{
+width:60%;
+padding:12px;
+margin:10px;
+}
+
+button.submit{
+background:#d4af37;
+border:none;
+padding:12px 25px;
+cursor:pointer;
+}
+
+footer{
+background:#000;
+text-align:center;
+padding:30px;
+}
